@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: rgb(91, 42, 156); */
+    cursor: pointer;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    width: 40vw;
+    height: 70vh;
+    background-color: #222;
+    border-radius: 20px;
+    margin: 100px 200px;
+    /* margin: auto; */
+}
+p{
+    color: white;
+    margin: 15px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.frnt{
+    color: white;
+    margin-left: 15px;
+    font-size: 35px;
+}
+.frnt2{
+    color: white;
+    font-size: 25px;
+    margin-left: 15px;
+}
+input{
+    outline: none;
+    background-color: transparent;
+    border: none;
+    width: 50%;
+    font-size: 20px;
+    height: 40px;
+    color: white;
+}
+/* input:focus{
+    font-size: 20px;
+    color: white;
+} */
+input::placeholder{
+    color: white;
+    font-size: 20px;
+}
+.house{
+    background-color: rgba(100, 53, 167, 0.61);
+    margin: 20px;
+    height: 40px;
+    border-radius: 7px;
+    width: 80%;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.contain{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 0px;
+    padding: 7px;
+    gap: 10px;
+}
+.btn{
+    background-color: rgba(100, 53, 167, 0.61);
+    color: white;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.people{
+    color: white;
+    font-size: 25px;
+    padding:  0px 8px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.not{
+    margin-right: 5px;
+}
+.now{
+    margin-left: 5px;
+}
+
+
+@media only screen and (max-width: 760px) {
+    .main{
+        width: 80%;
+        height: 80vh;
+        background-color: #222;
+        border-radius: 20px;
+        margin: 70px 50px;
+        overflow: hidden;
+    }
+    p{
+        color: white;
+        margin: 15px;
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    .frnt{
+        color: white;
+        margin-left: 15px;
+        font-size: 33px;
+    }
+    .frnt2{
+        color: white;
+        font-size: 20px;
+    }
+    input{
+        outline: none;
+        background-color: transparent;
+        border: none;
+        width: 80%;
+        font-size: 2opx;
+        height: 30px;
+    }
+    input:focus{
+        font-size: 20px;
+        color: white;
+    }
+    input::placeholder{
+        color: white;
+        font-size: 20px;
+    }
+    .house{
+        background-color: rgba(100, 53, 167, 0.61);
+        margin: 20px;
+        height: 30px;
+        border-radius: 7px;
+        width: 80%;
+    }
+    .flex{
+        display: flex;
+        justify-content: space-between;
+       
+    }
+    .contain{
+        display: flex;
+        justify-content: space-around;
+        margin: 7px;
+        padding: 7px;
+        gap: 10px;
+    }
+    .btn{
+        background-color: rgba(100, 53, 167, 0.61);
+        color: white;
+        font-size: 20px;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .people{
+        color: white;
+        font-size: 29px;
+        padding:  0px 5px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    .not{
+        margin-right: 5px;
+    }
+    .now{
+        margin-left: 5px;
+    }
+    #next{
+        width: 100%;
+        margin-top: 12px;
+        color: white;
+        font-size: 29px;
+        padding:  0px 5px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+
+    
+    
+}
