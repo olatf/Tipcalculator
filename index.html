@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TipCal</title>
+</head>
+<body>
+    <div class="main">
+            <p>Bill Total</p>
+            <div class="house">
+                <span class="frnt2">$</span>
+            <input 
+            onkeyup="calBIll()"
+            type="text" 
+            name="billTotaL" placeholder="0.00" id="BillAmount">
+            </div>
+            <br>
+            <p class="you">Tip</p>
+          <div class="house">
+            <span class="frnt2">%</span>
+            <input 
+            onkeyup="calBIll()"
+            type="text" 
+            name="billTotaL" placeholder="10" id="TipAmount">
+          </div>
+            <br>
+            <br>
+            <div class="flex">
+                <div class="now">
+                    <p class="kk">People</p>
+                    <div class="contain">
+                        <div >
+                            <span>
+                                <button class="btn" onclick="increase()">
+                                    <span>+</span>
+                                </button>
+                            </span>
+                        </div>
+                        <span class="people" id="Numberofpeople">1</span>
+                        <div>
+                            <span>
+                                <button class="btn" onclick="dreace()">
+                                    <span>-</span>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="not">
+                    <p class="kk">Total per Person</p>
+                    <div id="next">
+                        <span class="frnt " id="Totalcost">$0.00</span>
+                     </div>
+                </div>
+            </div>
+
+    <script src="new.js"></script>
+</body>
+</html>
